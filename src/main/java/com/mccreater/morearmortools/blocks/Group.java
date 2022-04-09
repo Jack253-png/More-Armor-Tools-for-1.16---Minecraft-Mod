@@ -35,6 +35,7 @@ public class Group {
     public static final Item IronGoldPickaxe = new IronGoldPickaxe(new Item.Settings().group(Tools));
     public static final Item IronGoldSword = new IronGoldSword(new Item.Settings().group(Tools));
     public static final Item IronGoldShovel = new IronGoldShovel(new Item.Settings().group(Tools));
+    public static final Item IronGoldHoe = new IronGoldHoe(new Item.Settings().group(Tools));
 
     public static final Block IndustryWool = new IndustryWool(FabricBlockSettings.of(Material.WOOL));
 

@@ -62,6 +62,7 @@ public class Client implements ModInitializer {
 			Registry.register(Registry.ITEM, new Identifier(modid,"irongoldpickaxe"),Group.IronGoldPickaxe);
 			Registry.register(Registry.ITEM, new Identifier(modid,"irongoldsword"),Group.IronGoldSword);
 			Registry.register(Registry.ITEM, new Identifier(modid,"irongoldshovel"),Group.IronGoldShovel);
+			Registry.register(Registry.ITEM, new Identifier(modid,"irongoldhoe"),Group.IronGoldHoe);
 			logger.info("Items Registried");
 		}
 		catch (Exception e){

@@ -1,7 +1,6 @@
 package com.mccreater.morearmortools.blocks;
 
 import net.minecraft.item.HoeItem;
-import com.mccreater.morearmortools.blocks.DemoToolMaterials;
 
 public class WoolHoe extends HoeItem {
     protected WoolHoe(Settings settings) {
