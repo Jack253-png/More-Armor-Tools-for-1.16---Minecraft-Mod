@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "morearmortools",
+  "version": "v0.1",
+
+  "name": "More Armor Tools",
+  "description": "Add more armor and tools into minecraft",
+  "authors": [
+    "mc_creater"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/morearmortools/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mccreater.morearmortools.Client"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
