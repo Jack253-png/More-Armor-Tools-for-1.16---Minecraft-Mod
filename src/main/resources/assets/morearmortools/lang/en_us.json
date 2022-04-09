@@ -25,5 +25,7 @@
   "item.morearmortools.irongoldingot" : "Iron Gold Ingot",
   "item.morearmortools.irongoldaxe" : "Iron Gold Axe",
   "item.morearmortools.irongoldpickaxe" : "Iron Gold Pickaxe",
-  "item.morearmortools.irongoldsword" : "Iron Gold Sword"
+  "item.morearmortools.irongoldsword" : "Iron Gold Sword",
+  "item.morearmortools.irongoldshovel" : "Iron Gold Shovel",
+  "item.morearmortools.irongoldhoe" : "Iron Gold Hoe"
 }
