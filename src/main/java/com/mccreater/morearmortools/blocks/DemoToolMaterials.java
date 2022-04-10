@@ -1,11 +1,8 @@
 package com.mccreater.morearmortools.blocks;
 
-import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.tag.ItemTags;
-import net.minecraft.tag.Tag;
 import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
@@ -15,10 +12,10 @@ public enum DemoToolMaterials implements ToolMaterial {
         return Ingredient.fromTag(ItemTags.WOOL);
     }),
     COMPRESSIONSTICK(20,45,5.0F,3.0F,100,() -> {
-        return Ingredient.fromTag((Tag<Item>) Items.STICK);
+        return Ingredient.fromTag(ItemTags.LOGS);
     }),
     IRONGOLDINGOT(15,35,4.0F,2.0F,60,() -> {
-        return Ingredient.fromTag((Tag<Item>) Items.IRON_INGOT);
+        return Ingredient.fromTag(ItemTags.GOLD_ORES);
     });
 
     private final int miningLevel;
