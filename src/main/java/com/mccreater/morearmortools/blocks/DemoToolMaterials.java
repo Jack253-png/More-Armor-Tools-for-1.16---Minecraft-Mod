@@ -11,7 +11,7 @@ import java.util.function.Supplier;
 
 public enum DemoToolMaterials implements ToolMaterial {
 
-    WOOL(0, 32, 1.0F, 0.0F, 20, () -> {
+    INDUSTRYWOOL(0, 32, 1.0F, 0.0F, 20, () -> {
         return Ingredient.fromTag(ItemTags.WOOL);
     }),
     COMPRESSIONSTICK(20,45,5.0F,3.0F,100,() -> {

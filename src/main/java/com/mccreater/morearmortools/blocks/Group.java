@@ -20,10 +20,10 @@ public class Group {
             () -> new ItemStack(Items.STICK));
 
 
-    public static final Item WoolHelmet = new WoolHamlet(DemoArmorMaterial.WOOL, EquipmentSlot.HEAD, new Item.Settings().group(Armors));
-    public static final Item WoolChestplate = new WoolChestplate(DemoArmorMaterial.WOOL, EquipmentSlot.CHEST, new Item.Settings().group(Armors));
-    public static final Item WoolLeggings = new WoolLeggings(DemoArmorMaterial.WOOL, EquipmentSlot.LEGS, new Item.Settings().group(Armors));
-    public static final Item WoolBoots = new WoolBoots(DemoArmorMaterial.WOOL, EquipmentSlot.FEET, new Item.Settings().group(Armors));
+    public static final Item WoolHelmet = new WoolHamlet(DemoArmorMaterial.INDUSTRYWOOL, EquipmentSlot.HEAD, new Item.Settings().group(Armors));
+    public static final Item WoolChestplate = new WoolChestplate(DemoArmorMaterial.INDUSTRYWOOL, EquipmentSlot.CHEST, new Item.Settings().group(Armors));
+    public static final Item WoolLeggings = new WoolLeggings(DemoArmorMaterial.INDUSTRYWOOL, EquipmentSlot.LEGS, new Item.Settings().group(Armors));
+    public static final Item WoolBoots = new WoolBoots(DemoArmorMaterial.INDUSTRYWOOL, EquipmentSlot.FEET, new Item.Settings().group(Armors));
 
     public static final Item WoolAxe = new WoolAxe(new Item.Settings().group(Tools));
     public static final Item WoolSword = new WoolSword(new Item.Settings().group(Tools));

@@ -13,7 +13,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum DemoArmorMaterial implements ArmorMaterial {
-    WOOL("wool", 5, new int[]{1,3,2,1}, 15, SoundEvents.BLOCK_WOOL_PLACE, 0.0F, () -> {
+    INDUSTRYWOOL("industrywool", 5, new int[]{1,3,2,1}, 15, SoundEvents.BLOCK_WOOL_PLACE, 0.0F, () -> {
         return Ingredient.ofItems(Items.WHITE_WOOL);
     });
 
